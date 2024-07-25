@@ -118,6 +118,7 @@ h1, h2 {
 li {
   display: list-item;
   text-align: left;
+  list-style: none;
 }
 
 #farmacia {
@@ -146,7 +147,7 @@ li {
 
 .box img{
   position: absolute;
-  right: 11%;
+  right: 7%;
 }
 
 .pergunta .texto {
@@ -300,6 +301,10 @@ footer nav a {
     flex-direction: column-reverse;
     padding-left: 10%;
     padding-right: 10%;
+  }
+
+  .box img {
+    right: 11%;
   }
 
   .pergunta .texto {

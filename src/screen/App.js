@@ -8,6 +8,7 @@ import fourthImg from '../assets/images/faq-img.svg';
 import Box from '../components/Box.js';
 import logoFoot from '../assets/images/logo-footer.svg';
 import Nav from '../components/Nav.js'
+import { PiDogBold, PiCatBold } from "react-icons/pi";
 
 function App() {
   return (
@@ -40,13 +41,13 @@ function App() {
               Nossa clínica veterinária é local onde a paixão pelos animais se unem a excelência em cuidados veterinários. Sob a liderança da Dra.Vivian Reid,uma profissional altamente qualificada e comprometida,oferecemos serviços de saúde e bem-estar para animais de estimação de todas as espécies.Venha conhecer nossa clínica e desfrute da atenção personalizada e do carinho que seu pet merece.
             </p>
             <ul>
-              <li>Consultas de rotina e exames de saúde abrangentes</li>
-              <li>Vacinação e imunização</li>
-              <li>Cirurgias e procedimentos veterinários</li>
-              <li>Tratamento e controle de doenças</li>
-              <li>Odontologia veterinária</li>
-              <li>Atendimento de emergência 24 horas</li>
-              <li>Nutrição e aconselhamento alimentar personalizado</li>
+              <li><PiDogBold size={15} color='#ff9a6c'/> Consultas de rotina e exames de saúde abrangentes</li>
+              <li><PiCatBold size={15} color='#ff9a6c'/> Vacinação e imunização</li>
+              <li><PiDogBold size={15} color='#ff9a6c'/> Cirurgias e procedimentos veterinários</li>
+              <li><PiCatBold size={15} color='#ff9a6c'/> Tratamento e controle de doenças</li>
+              <li><PiDogBold size={15} color='#ff9a6c'/> Odontologia veterinária</li>
+              <li><PiCatBold size={15} color='#ff9a6c'/> Atendimento de emergência 24 horas</li>
+              <li><PiDogBold size={15} color='#ff9a6c'/> Nutrição e aconselhamento alimentar personalizado</li>
             </ul>
           </div>
           <img src={secondImg}/>
